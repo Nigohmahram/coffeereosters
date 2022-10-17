@@ -87,6 +87,7 @@ img{
 }
 /* SITE-HEADER-MENU */
 .site-header{
+     background-color: #F3D7B7;
      background-image: url(../img/light-bg-img.jpg);
 }
 .site-header-menu {

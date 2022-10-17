@@ -430,6 +430,62 @@ img{
      outline-color: #C99B67;
 }
 
+/* SITE-FOOTER  */
+.sitenav-menu{
+     font-size: 20px;
+     line-height: 21px;
+     font-family: var(--font-family);
+     font-weight: var(--font-weight7);
+}
+.site-footer {
+     padding: 65px 0;
+     background-color: #F3D7B7;
+     background-image: url(../img/light-bg-img.jpg);
+}
+.site-footer-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.site-footer-menu-icon {
+     display: flex;
+}
+.footer-logo {
+     flex-shrink: 0;
+     width: 235px;
+     height: 24px;
+     object-fit: contain;
+}
+.footer-logo:hover{
+     color: #0A775F;
+     opacity: 0.8;
+}
+.footer-logo:active{
+     opacity: 0.6;
+}
+/* SICIALS  */
+.socials {
+     align-items: center;
+     display: flex;
+     padding: 0;
+     margin: 0;
+     list-style: none;
+}
+.socials-item:not(:last-child) {
+     margin-right: 30px;
+}
+.socials-link {
+     display: flex;
+     color: var(--color-333);
+}
+.socials-link:hover{
+     color: #0A775F;
+}
+.socials-link:active{
+     opacity: 0.6;
+}
+
 
 
 /* RETINA-BG  */
@@ -452,5 +508,8 @@ only screen and ( min-resolution: 2dppx) {
      }
      .how-it-works-inner{
           background-image: url(../img/green-bg@2x.jpg);
+     }
+     .site-footer{
+          background-image: url(../img/light-bg-img@2x.jpg);
      }
 }

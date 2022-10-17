@@ -272,6 +272,78 @@ img{
      padding-right: 117px;
 }
 
+/* INTER-FEATURES  */
+
+
+.index-fueters-inner{
+     background-color: #C99B67;
+     text-align: center;
+     height: 703px;
+     background-image: url(../img/index-fueters-bg.jpg);
+     background-position: center center ;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+.index-fueters-inner-heading{
+     padding-top: 50px;
+     margin-top: 20px;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     color: #fff;
+     font-family: var(--font-family);
+     font-weight: var(--font-weight7);
+     font-size: 50px;
+     line-height: 59px;
+}
+.index-fueters-inner-text{
+     margin: 10px 409px 80px 410px;
+     font-family: var(--font-family);
+     font-weight: var(--font-weight4);
+     font-size: 16px;
+     line-height: 28px;
+     color: #fff;
+}
+.index-fueters-inner-block{
+     display: flex;
+     margin-right: none;
+     margin-left: none;
+     padding-left: none;
+     padding-right: none;
+}
+.index-fueters-inner-box{
+     width: 433px;
+     height: 629px;
+     text-align: left;
+     margin-left: 24px;
+
+}
+.index-fueters-inner-box-img{
+     justify-content: center;
+     align-items: center;
+     object-fit: cover;
+     width: 432px;
+     height: 500px;
+}
+.index-fueters-inner-box-heading{
+     margin-top: 28px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+     font-family: var(--font-family);
+     font-weight: var(--font-weight5);
+     color: var(--color-333);
+     font-size: 30px;
+     line-height: 35px;
+}
+.index-fueters-inner-box-text{
+     margin-right: 50px;
+     padding-bottom: 80px;
+     font-family: var(--font-family);
+     font-weight: var(--font-weight4);
+     color: var(--color-333);
+     font-size: 18px;
+     line-height: 28px;
+}
 
 
 
@@ -289,5 +361,8 @@ only screen and ( min-resolution: 2dppx) {
      .index-collection-inner {
           background-color: #f8f8f2;
           background-image: url(../img/index-collection-bg@2x.png)
+     }
+     .index-fueters-inner{
+          background-image: url(../img/index-fueters-bg@2x.jpg);
      }
 }
